@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Мониторинг</title>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+    <script src="js/monitoring.js"></script>
+    <script src="js/monitoring_chart.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/monitoring.css">
+  </head>
+  <body>
+    <div id="header">
+      <h1>Математический анализ и машинное обучение на метрологических данных систем массового сбора</h1>
+    </div>
+
+    <div id="nav">
+      <li><a href="main_page.html">Главная</a></li>
+      <li><a href="monitoring.html">Мониторинг</a></li>
+      <li><a href="">Прогноз</a></li>
+      <li><a href="">Помощь</a></li>
+    </div>
+
+    <div id="content">
+      
+      <div id="title">
+        <p>Content</p>
+      </div>
+
+      <div id="sensor_1">
+        <canvas id="temperature_out"></canvas>
+      </div>
+
+      <div id="sensor_2">
+        <canvas id="temperature_in"></canvas>
+      </div>
+
+    </div>
+
+    <div id="footer">
+      <p>&copy; Собственность 2020</p>
+    </div>
+  </body>
+</html>

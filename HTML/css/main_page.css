@@ -1,0 +1,47 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#content {overflow: auto;}
+
+#nav, #feature, #footer {
+  margin: 1%;
+}
+
+#nav a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 30px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+.column3 {margin-right: 0%;}
+
+li, a {
+  display: inline; /* Делает шапку в одну строку*/
+  padding: 0.5em;
+  text-decoration: none; /*Убираем подчеркивание ссылок*/
+}
+
+#nav, #footer {
+  background-color: #efefef;
+  padding: 0.5em 0;
+}
+#feature, .article {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color:  #efefef;
+}

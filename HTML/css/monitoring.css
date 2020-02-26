@@ -1,0 +1,56 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#nav, #content, #footer {
+  margin: 5%;
+}
+
+#nav {
+  width: 30%;
+  float: left;
+  margin: 1%;
+}
+
+#nav a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+
+#content {
+  width: 66%;
+  float: left;
+  margin: 1%;
+}
+
+#sensor_1, #sensor_2 {
+  margin: 3% 0% 3%;
+}
+
+
+#footer {
+  width: 100%;
+  clear: both;
+  margin: 1%;
+}
+
+li, a {
+  display: block;; /* Делает шапку в одну строку*/
+  padding: 0.5em;
+  text-decoration: none; /*Убираем подчеркивание ссылок*/
+}
+
+#nav, #title, #sensor_1, #sensor_2, #footer {
+  background-color: #efefef;
+  padding: 0.5em 0;
+}
