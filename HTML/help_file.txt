@@ -1,0 +1,1 @@
+* Запустить локальный сервер - python3 -m http.server --cgi

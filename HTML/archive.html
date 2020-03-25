@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Архив</title>
+    <link rel="stylesheet" type="text/css" href="css/archive.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <script src="js/archive.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Математический анализ и машинное обучение на метрологических данных систем массового сбора</h1>
+    </div>
+
+    <div id="nav">
+      <li><a href="main_page.html">Главная</a></li>
+      <li><a href="monitoring.html">Мониторинг</a></li>
+      <li><a href="">Прогноз</a></li>
+      <li><a href="archive.html"> Архив </a></li>
+      <li><a href="">Помощь</a></li>
+    </div>
+
+    <div id="content">
+      <div id="title">
+        <p>Content</p>
+      </div>
+
+      <div id="date_">
+        <p>Выберите период проведенных наблюдений</p>
+        <p>
+          <label for="start_date">С</label>
+          <input type="date" id="date_start" name="date_start"/>
+          <label for="finish_date">по</label>
+          <input type="date" id="date_finish" name="date_finish"/>
+        </p>
+      </div>
+
+      <div id="machine">
+        <select id="select_list_machine" name="View_1" onfocus='this.size=2;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
+            <option value="" selected disabled>Выберите название установки</option>
+            <option value="machine_1">PV17-00008B0</option>
+            <option value="machine_2">PV18-00086E</option>
+            <!--<option value="machine_3">PV18/PV17-0008B9</option>-->
+        </select>
+      </div>
+
+      <div id="graph_num">
+        <select id="select_list_graph" name="View_2" onfocus='this.size=3;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
+            <option value="" selected disabled>Выберите режим просмотра данных</option>
+            <!--<option value="all">Визуализация значений всех датчиков</option>-->
+            <option value="sensor_1">Визуализация значений датчика 1</option>
+            <option value="sensor_2">Визуализация значений датчика 2</option>
+            <option value="sensor_3">Визуализация значений датчика 3</option>
+            <option value="sensor_4">Визуализация значений датчика 4</option>
+            <option value="sensor_5">Визуализация значений датчика 5</option>
+            <option value="sensor_6">Визуализация значений датчика 6</option>
+            <option value="sensor_7">Визуализация значений датчика 7</option>
+            <option value="sensor_8">Визуализация значений датчика 8</option>
+            <option value="sensor_9">Визуализация значений датчика 9</option>
+        </select>
+      </div>
+
+
+    </div>
+  </body>
+</html>

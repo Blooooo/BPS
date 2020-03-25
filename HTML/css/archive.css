@@ -1,0 +1,105 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#nav, #content, #footer, #chipsets {
+  margin: 5%;
+}
+
+#nav {
+  width: 30%;
+  float: left;
+  margin: 1%;
+}
+
+#nav a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+
+#select_list_graph, #option {
+  border-color: black;
+  border-width: 2;
+  border-style: outset;
+  text-align: center;
+  height: 34px;
+  padding: 1%;
+  overflow-y: scroll;
+  font-size: 18px;
+  line-height: 1;
+  -webkit-appearance: none;
+  height: auto;
+  width: auto;
+  margin: 1% 5%;
+}
+
+#select_list_machine, #option {
+  border-color: black;
+  border-width: 2;
+  border-style: outset;
+  text-align: center;
+  height: 34px;
+  padding: 1%;
+  overflow-y: scroll;
+  font-size: 18px;
+  line-height: 1;
+  -webkit-appearance: none;
+  height: auto;
+  width: auto;
+  margin: 1% 5%;
+}
+
+  #date_ {
+  border-color: black;
+  border-width: 2;
+  border-style: outset;
+  margin: 1% 5%;
+  /*padding: 1%;*/
+}
+
+
+#content {
+  height: 325px;
+  width: 66%;
+  float: left;
+  margin: 1%;
+}
+
+#content {
+  margin: 1% 0% 1%;
+}
+
+#chipsets {
+  clear: both;
+}
+
+#footer {
+  width: 100%;
+  clear: both;
+  margin: 1%;
+}
+
+li, a {
+  display: block; /* Делает шапку в одну строку*/
+  padding: 0.5em;
+  text-decoration: none; /*Убираем подчеркивание ссылок*/
+}
+
+.sensor {
+  margin: 3% 0% 3%;
+}
+
+#nav, #title, #footer, #content, .sensor {
+  background-color: #efefef;
+  padding: 0.5em 0;
+}

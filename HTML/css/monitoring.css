@@ -33,7 +33,7 @@ body {
   margin: 1%;
 }
 
-#sensor_1, #sensor_2 {
+.sensor {
   margin: 3% 0% 3%;
 }
 
@@ -50,7 +50,7 @@ li, a {
   text-decoration: none; /*Убираем подчеркивание ссылок*/
 }
 
-#nav, #title, #sensor_1, #sensor_2, #footer {
+#nav, #title, #footer, .sensor {
   background-color: #efefef;
   padding: 0.5em 0;
 }
